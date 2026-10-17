@@ -1,0 +1,21 @@
+{
+  "release": "Fix saved match list rendering; add match notes; trophy button opens Player of the Match picker",
+  "cache": "touchline-tracker-20261017-r18",
+  "files": {
+    "index.html": "d1b253508c184eec69ab83c5d885213e5a8ec31322abec1d47d4d917ff6942ed",
+    "app.js": "46a246d52038110c3fb26a86099a67ed2d0b8d12907a2a2d2583fe0113f4717a",
+    "inline-check.js": "46a246d52038110c3fb26a86099a67ed2d0b8d12907a2a2d2583fe0113f4717a",
+    "sw.js": "36715ea563ccaf65845f1f3d9893291c2f6347bb8d1bf796d39ef84cd784647c",
+    "manifest.webmanifest": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
+  },
+  "sha256": {
+    "index.html": "d1b253508c184eec69ab83c5d885213e5a8ec31322abec1d47d4d917ff6942ed",
+    "app.js": "46a246d52038110c3fb26a86099a67ed2d0b8d12907a2a2d2583fe0113f4717a",
+    "inline-check.js": "46a246d52038110c3fb26a86099a67ed2d0b8d12907a2a2d2583fe0113f4717a",
+    "sw.js": "36715ea563ccaf65845f1f3d9893291c2f6347bb8d1bf796d39ef84cd784647c",
+    "manifest.webmanifest": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
+  },
+  "version": "TT-2026.10.17-r18",
+  "build": "TT-2026.10.17-r18",
+  "date": "2026-10-17"
+}
