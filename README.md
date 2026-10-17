@@ -214,3 +214,9 @@ This build restores the complete r8 application codebase (rather than the reduce
 ## r21 — Training page navigation fix
 
 Fixed the Live match / Training dropdown handler. The dropdown is no longer bound to the button-tab click handler, which could hide all pages when the select was clicked. Selecting Training now explicitly shows the Training section and renders its saved sessions and form. Existing local data is preserved.
+
+
+## r22 update
+- Fixed navigation state so switching to another tab resets the Live match/Training selector; returning to Training reliably shows the Training page.
+- Added Training sessions to selective JSON backup export and restore. Full JSON backups already include the trainingSessions array.
+- Training import merges sessions by ID instead of replacing existing sessions.

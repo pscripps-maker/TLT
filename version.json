@@ -1,5 +1,5 @@
 {
-  "build": "TT-2026.10.17-r21",
+  "build": "TT-2026.10.17-r22",
   "release": "Training page navigation fix",
   "files": {
     "index.html": {
