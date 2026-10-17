@@ -194,3 +194,9 @@ This build restores the complete r8 application codebase (rather than the reduce
 - Removed legacy custom “Player of the Match” / “Man of the Match” event buttons from saved settings automatically, including their button-order entries. The award is selected only in the full-time picker.
 - Player of the Match choice is recorded as a single `playerOfTheMatch` event in the match timeline and counted in player statistics; selecting None clears the award event.
 - Existing match and squad data are preserved.
+
+
+## r19 settings and cache refresh
+- Settings lists render independently at the beginning of the main render cycle so another view's rendering error cannot prevent Event button settings and Clubs, kits and competitions from populating. Required settings arrays are normalised after storage recovery.
+- The service worker cache name is bumped to r19. Navigation and app code are fetched network-first with cache bypass, and the worker update is checked on page load. The diagnostics “Reload latest version” action adds a unique query string.
+- Browser HTTP cache directives are included for index.html. GitHub Pages/CDN and browser behaviour can still vary; the in-app version diagnostics are the reliable check.
