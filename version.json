@@ -1,21 +1,42 @@
 {
-  "release": "Restore settings lists; improve cache-busting and service-worker update checks",
-  "cache": "touchline-tracker-20261017-r19",
+  "build": "TT-2026.10.17-r20",
+  "release": "Touchline Tracker Training Sessions",
   "files": {
-    "index.html": "41bf041027bd3038dff3133e488afe8974eb2924aac6aa34a3a8c8539b99dd2a",
-    "app.js": "ce4db931c5a41a63d35ed65bc61d26223da22fa7a74bd97d9519d1e627aac34f",
-    "inline-check.js": "ce4db931c5a41a63d35ed65bc61d26223da22fa7a74bd97d9519d1e627aac34f",
-    "sw.js": "753ba842b212565c0227c407e0e606745137436d6ada420fe7ca45c3b50589a4",
-    "manifest.webmanifest": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
-  },
-  "sha256": {
-    "index.html": "41bf041027bd3038dff3133e488afe8974eb2924aac6aa34a3a8c8539b99dd2a",
-    "app.js": "ce4db931c5a41a63d35ed65bc61d26223da22fa7a74bd97d9519d1e627aac34f",
-    "inline-check.js": "ce4db931c5a41a63d35ed65bc61d26223da22fa7a74bd97d9519d1e627aac34f",
-    "sw.js": "753ba842b212565c0227c407e0e606745137436d6ada420fe7ca45c3b50589a4",
-    "manifest.webmanifest": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
-  },
-  "version": "TT-2026.10.17-r19",
-  "build": "TT-2026.10.17-r19",
-  "date": "2026-10-17"
+    "index.html": {
+      "bytes": 179914,
+      "sha256": "352e038d86051ee1e28c2598d5757d5a55cfbd8e47b9a055e27af6d69c4aa5bb"
+    },
+    "app.js": {
+      "bytes": 148929,
+      "sha256": "2bc27d92e1ce4c21c314558c5ee5f89228c18c3ac6913a0d126b9ed3cb063617"
+    },
+    "inline-check.js": {
+      "bytes": 148929,
+      "sha256": "2bc27d92e1ce4c21c314558c5ee5f89228c18c3ac6913a0d126b9ed3cb063617"
+    },
+    "sw.js": {
+      "bytes": 1703,
+      "sha256": "dcfbacc56faa42cd2f2571964d1f50538016196a88dd87e3be84234dfe131249"
+    },
+    "manifest.webmanifest": {
+      "bytes": 410,
+      "sha256": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
+    },
+    "icon.svg": {
+      "bytes": 476,
+      "sha256": "5aff0b15c14f84aacfef8af7640febb4b5138fb4bda5d7e41e0ebb4381c34ee5"
+    },
+    "icon-192.png": {
+      "bytes": 1553,
+      "sha256": "86a9eff85fcc6eff79466845e8fe32aee758dd701eeddb7fc01e7aa898c4ea5b"
+    },
+    "icon-512.png": {
+      "bytes": 4296,
+      "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
+    },
+    "README.md": {
+      "bytes": 16183,
+      "sha256": "86a9ca6f7e8d47d50771ac7fd91fab6215a52ac3ae14ef61c173fef2c0eadcc6"
+    }
+  }
 }

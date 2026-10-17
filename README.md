@@ -200,3 +200,12 @@ This build restores the complete r8 application codebase (rather than the reduce
 - Settings lists render independently at the beginning of the main render cycle so another view's rendering error cannot prevent Event button settings and Clubs, kits and competitions from populating. Required settings arrays are normalised after storage recovery.
 - The service worker cache name is bumped to r19. Navigation and app code are fetched network-first with cache bypass, and the worker update is checked on page load. The diagnostics “Reload latest version” action adds a unique query string.
 - Browser HTTP cache directives are included for index.html. GitHub Pages/CDN and browser behaviour can still vary; the in-app version diagnostics are the reliable check.
+
+
+## r20 — Training sessions and multi-user roadmap
+
+- Added a Live match dropdown with a Training page.
+- Record date, location, attendance across multiple saved teams, Star of Training and notes.
+- Edit/delete saved training sessions; sessions are included in the combined chronological history and can be filtered separately from matches.
+- Training statistics show session attendance and Star of Training counts by player/team.
+- Training sessions are saved locally in this browser and included in full JSON backups. This release does not provide cloud sync or multi-user access; see the accompanying response for a recommended backend architecture.
