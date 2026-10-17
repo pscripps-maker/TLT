@@ -1,22 +1,22 @@
 {
-  "build": "TT-2026.10.17-r20",
-  "release": "Touchline Tracker Training Sessions",
+  "build": "TT-2026.10.17-r21",
+  "release": "Training page navigation fix",
   "files": {
     "index.html": {
-      "bytes": 179914,
-      "sha256": "352e038d86051ee1e28c2598d5757d5a55cfbd8e47b9a055e27af6d69c4aa5bb"
+      "bytes": 180113,
+      "sha256": "edad27cafbb034d664d4ee55f9d9a74a27f3b3a3cff21c1335e03ea22529c05c"
     },
     "app.js": {
-      "bytes": 148929,
-      "sha256": "2bc27d92e1ce4c21c314558c5ee5f89228c18c3ac6913a0d126b9ed3cb063617"
+      "bytes": 149127,
+      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
     },
     "inline-check.js": {
-      "bytes": 148929,
-      "sha256": "2bc27d92e1ce4c21c314558c5ee5f89228c18c3ac6913a0d126b9ed3cb063617"
+      "bytes": 149127,
+      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
     },
     "sw.js": {
       "bytes": 1703,
-      "sha256": "dcfbacc56faa42cd2f2571964d1f50538016196a88dd87e3be84234dfe131249"
+      "sha256": "c4b6f5a319a85ed9d54e6fd95a7542745ba30073a49138c2ad141e8bf2eecf04"
     },
     "manifest.webmanifest": {
       "bytes": 410,
@@ -35,8 +35,8 @@
       "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
     },
     "README.md": {
-      "bytes": 16183,
-      "sha256": "86a9ca6f7e8d47d50771ac7fd91fab6215a52ac3ae14ef61c173fef2c0eadcc6"
+      "bytes": 16533,
+      "sha256": "b374c4e02967d62f224c02f6af6185a3565b3133e64127130bf42e47b6622bc8"
     }
   }
 }

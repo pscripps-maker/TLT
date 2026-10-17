@@ -209,3 +209,8 @@ This build restores the complete r8 application codebase (rather than the reduce
 - Edit/delete saved training sessions; sessions are included in the combined chronological history and can be filtered separately from matches.
 - Training statistics show session attendance and Star of Training counts by player/team.
 - Training sessions are saved locally in this browser and included in full JSON backups. This release does not provide cloud sync or multi-user access; see the accompanying response for a recommended backend architecture.
+
+
+## r21 — Training page navigation fix
+
+Fixed the Live match / Training dropdown handler. The dropdown is no longer bound to the button-tab click handler, which could hide all pages when the select was clicked. Selecting Training now explicitly shows the Training section and renders its saved sessions and form. Existing local data is preserved.
