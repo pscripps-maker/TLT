@@ -1,3 +1,16 @@
+# Touchline Tracker — r23 release notes
+
+- Build ID: `TT-2026.10.18-r23` (shown in Settings diagnostics).
+- Game/Train selector now offers Live match, Training and Result.
+- Result page records previous games separately from the current live match, including score, kits, venue, lineup, scorer/assist names, notes, known events and optional shootout score.
+- Selected Game/Train page is retained when opening Team, History / stats or Settings.
+- `version.json` contains SHA-256 hashes and byte sizes for release files; service-worker cache is `touchline-tracker-20261018-r23`.
+
+## Upload check
+After uploading and committing all ZIP contents to the GitHub Pages branch, open Settings diagnostics. App build, index.html, app.js and inline-check.js should all show `TT-2026.10.18-r23`; cache names should include `touchline-tracker-20261018-r23`. If any build ID differs, the repository files are not all from this release.
+
+---
+
 # Touchline Tracker r18
 
 ## Changes in r18
