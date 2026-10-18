@@ -1,22 +1,22 @@
 {
-  "build": "TT-2026.10.18-r26",
-  "release": "Result page save/edit/reset, lineup layout and event handling fixes",
+  "build": "TT-2026.10.17-r22",
+  "release": "Training page navigation fix",
   "files": {
     "index.html": {
-      "bytes": 200404,
-      "sha256": "90919fa358bfd513d1d3928aa5f32a64ea55dbdcba8df8d02f1c04f209abc4a0"
+      "bytes": 180113,
+      "sha256": "edad27cafbb034d664d4ee55f9d9a74a27f3b3a3cff21c1335e03ea22529c05c"
     },
     "app.js": {
-      "bytes": 164405,
-      "sha256": "984a4bf1ed0bdf10c74b6e03732ca13f9f48abc94c0c3460a5b3fc200147ae92"
+      "bytes": 149127,
+      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
     },
     "inline-check.js": {
-      "bytes": 164405,
-      "sha256": "984a4bf1ed0bdf10c74b6e03732ca13f9f48abc94c0c3460a5b3fc200147ae92"
+      "bytes": 149127,
+      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
     },
     "sw.js": {
       "bytes": 1703,
-      "sha256": "72e832c2396c49210346bd3e97bd082b8af552ac8de00811a5070c0e5f448e5c"
+      "sha256": "c4b6f5a319a85ed9d54e6fd95a7542745ba30073a49138c2ad141e8bf2eecf04"
     },
     "manifest.webmanifest": {
       "bytes": 410,
@@ -35,8 +35,8 @@
       "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
     },
     "README.md": {
-      "bytes": 19455,
-      "sha256": "c15627056c575a7d0a4c29c72b9b72f16a150ef5b690cf4c692772df7c039e48"
+      "bytes": 16533,
+      "sha256": "b374c4e02967d62f224c02f6af6185a3565b3133e64127130bf42e47b6622bc8"
     }
   }
 }
