@@ -1,16 +1,3 @@
-# Touchline Tracker — r23 release notes
-
-- Build ID: `TT-2026.10.18-r24` (shown in Settings diagnostics).
-- Game/Train selector now offers Live match, Training and Result.
-- Result page records previous games separately from the current live match, including score, kits, venue, lineup, scorer/assist names, notes, known events and optional shootout score.
-- Selected Game/Train page is retained when opening Team, History / stats or Settings.
-- `version.json` contains SHA-256 hashes and byte sizes for release files; service-worker cache is `touchline-tracker-20261018-r23`.
-
-## Upload check
-After uploading and committing all ZIP contents to the GitHub Pages branch, open Settings diagnostics. App build, index.html, app.js and inline-check.js should all show `TT-2026.10.18-r24`; cache names should include `touchline-tracker-20261018-r23`. If any build ID differs, the repository files are not all from this release.
-
----
-
 # Touchline Tracker r18
 
 ## Changes in r18
@@ -233,16 +220,3 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Fixed navigation state so switching to another tab resets the Live match/Training selector; returning to Training reliably shows the Training page.
 - Added Training sessions to selective JSON backup export and restore. Full JSON backups already include the trainingSessions array.
 - Training import merges sessions by ID instead of replacing existing sessions.
-
-## r24 changes (2026-10-18)
-- Game/Train is now the first dropdown option rather than a separate label. Selecting Team, History / stats or Settings resets the dropdown display to Game/Train while remembering the selected working page. Choosing Live match, Training or Result switches the working page.
-- Result entry uses the selected saved team's player roster, a starting-lineup/substitutions selector, Player of the Match, event buttons without match-clock timestamps, Unknown scorer, linked assist events and penalty shootout kick outcomes.
-- Recorded goal and opposition-goal events update the result score; the saved result is included in match history and player statistics.
-- Build marker and service-worker cache bumped to TT-2026.10.18-r24 / touchline-tracker-20261018-r24. Diagnostics compare the fetched deployed files to the current release marker.
-
-
-## Release r25 — Result event recording fix
-- Fixed the Starting lineup / subs control so the summary appears below the button without overlapping it on narrow mobile screens.
-- Reworked Result event handling so event buttons, player selection, unknown scorer, additional events, and penalty shootout kicks respond reliably.
-- Result events use FT / Shootout labels and do not record live match-clock times.
-- Validation: JavaScript syntax and ZIP integrity checks; not yet end-to-end tested in Android Chrome.

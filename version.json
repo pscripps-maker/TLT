@@ -1,22 +1,22 @@
 {
-  "build": "TT-2026.10.18-r25",
-  "release": "Game/Train dropdown and event-based previous results",
+  "build": "TT-2026.10.17-r22",
+  "release": "Training page navigation fix",
   "files": {
     "index.html": {
-      "bytes": 195601,
-      "sha256": "8dba6b83d7c7d7658a5d3a56f1b583a4baf3d053bc1d4cb4b6b79ded3e18acf9"
+      "bytes": 180113,
+      "sha256": "edad27cafbb034d664d4ee55f9d9a74a27f3b3a3cff21c1335e03ea22529c05c"
     },
     "app.js": {
-      "bytes": 160288,
-      "sha256": "8bfd4ec84b54ce3690e5c08b7e8e3ac8eb1497981c54d7cae4cbcbdd429a9801"
+      "bytes": 149127,
+      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
     },
     "inline-check.js": {
-      "bytes": 160288,
-      "sha256": "8bfd4ec84b54ce3690e5c08b7e8e3ac8eb1497981c54d7cae4cbcbdd429a9801"
+      "bytes": 149127,
+      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
     },
     "sw.js": {
       "bytes": 1703,
-      "sha256": "44880e668cf91df92fa49773b064f8ea517121f9c6f71bb4708dbda4e1c87974"
+      "sha256": "c4b6f5a319a85ed9d54e6fd95a7542745ba30073a49138c2ad141e8bf2eecf04"
     },
     "manifest.webmanifest": {
       "bytes": 410,
@@ -35,8 +35,8 @@
       "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
     },
     "README.md": {
-      "bytes": 18705,
-      "sha256": "bff76e594ecd92bf46107477ab3f2f3a82a4b3e7e8d5ce39a914c7d829e298d7"
+      "bytes": 16533,
+      "sha256": "b374c4e02967d62f224c02f6af6185a3565b3133e64127130bf42e47b6622bc8"
     }
   }
 }
