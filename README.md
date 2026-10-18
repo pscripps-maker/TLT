@@ -220,3 +220,10 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Fixed navigation state so switching to another tab resets the Live match/Training selector; returning to Training reliably shows the Training page.
 - Added Training sessions to selective JSON backup export and restore. Full JSON backups already include the trainingSessions array.
 - Training import merges sessions by ID instead of replacing existing sessions.
+
+
+## r23 — Game/Train dropdown placeholder
+- The first tab selector starts with “＋ Game/Train”, followed by “Live match” and “Training”.
+- Switching to Team, History / stats, or Settings resets the selector to “＋ Game/Train”.
+- Choosing Live match or Training explicitly opens that page. Selecting the placeholder does not hide the current page.
+- Navigation-only change based on r22; other workflows and saved data structures are unchanged.

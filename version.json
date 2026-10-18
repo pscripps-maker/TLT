@@ -1,42 +1,42 @@
 {
-  "build": "TT-2026.10.17-r22",
-  "release": "Training page navigation fix",
+  "build": "TT-2026.10.18-r23",
+  "cache": "touchline-tracker-20261018-r23",
   "files": {
-    "index.html": {
-      "bytes": 180113,
-      "sha256": "edad27cafbb034d664d4ee55f9d9a74a27f3b3a3cff21c1335e03ea22529c05c"
+    "README.md": {
+      "sha256": "c9dd5806660b5a5266f3c0c41c9800db7a1302373aeb43bb63431c26f41a7671",
+      "bytes": 17376
     },
     "app.js": {
-      "bytes": 149127,
-      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
-    },
-    "inline-check.js": {
-      "bytes": 149127,
-      "sha256": "221633c8c49393958ac881e3a7203f898bfad7a240f20098264aa08a0a4850fc"
-    },
-    "sw.js": {
-      "bytes": 1703,
-      "sha256": "c4b6f5a319a85ed9d54e6fd95a7542745ba30073a49138c2ad141e8bf2eecf04"
-    },
-    "manifest.webmanifest": {
-      "bytes": 410,
-      "sha256": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
-    },
-    "icon.svg": {
-      "bytes": 476,
-      "sha256": "5aff0b15c14f84aacfef8af7640febb4b5138fb4bda5d7e41e0ebb4381c34ee5"
+      "sha256": "7aa0aee6d4b90d80b375024896f4355ba663ff007580cc0c98fc021e5bacb5ea",
+      "bytes": 149881
     },
     "icon-192.png": {
-      "bytes": 1553,
-      "sha256": "86a9eff85fcc6eff79466845e8fe32aee758dd701eeddb7fc01e7aa898c4ea5b"
+      "sha256": "86a9eff85fcc6eff79466845e8fe32aee758dd701eeddb7fc01e7aa898c4ea5b",
+      "bytes": 1553
     },
     "icon-512.png": {
-      "bytes": 4296,
-      "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
+      "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba",
+      "bytes": 4296
     },
-    "README.md": {
-      "bytes": 16533,
-      "sha256": "b374c4e02967d62f224c02f6af6185a3565b3133e64127130bf42e47b6622bc8"
+    "icon.svg": {
+      "sha256": "5aff0b15c14f84aacfef8af7640febb4b5138fb4bda5d7e41e0ebb4381c34ee5",
+      "bytes": 476
+    },
+    "index.html": {
+      "sha256": "1810c0939c9e1340ec3322c95c88cdbd18a37e3b05b83fc553fff0a6a7a4434a",
+      "bytes": 181001
+    },
+    "inline-check.js": {
+      "sha256": "7aa0aee6d4b90d80b375024896f4355ba663ff007580cc0c98fc021e5bacb5ea",
+      "bytes": 149881
+    },
+    "manifest.webmanifest": {
+      "sha256": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a",
+      "bytes": 410
+    },
+    "sw.js": {
+      "sha256": "333cbf0ed343bcb94742992e0e1b9ca00bebae7961c177bbef27f53d984bdb09",
+      "bytes": 1703
     }
   }
 }
