@@ -1,22 +1,22 @@
 {
-  "build": "TT-2026.10.18-r23",
-  "release": "Game/Train Result entry and persistent page selection",
+  "build": "TT-2026.10.18-r24",
+  "release": "Game/Train dropdown and event-based previous results",
   "files": {
     "index.html": {
-      "bytes": 190268,
-      "sha256": "eb0f4fda84be75e93401130d64b59f9b577411acf570957adfca9c0e0be4524a"
+      "bytes": 195601,
+      "sha256": "8dba6b83d7c7d7658a5d3a56f1b583a4baf3d053bc1d4cb4b6b79ded3e18acf9"
     },
     "app.js": {
-      "bytes": 155282,
-      "sha256": "170a84ab5c9f8257c8b036bed706d4a28a67212bd5cc40478610f011c7e20c3b"
+      "bytes": 160288,
+      "sha256": "8bfd4ec84b54ce3690e5c08b7e8e3ac8eb1497981c54d7cae4cbcbdd429a9801"
     },
     "inline-check.js": {
-      "bytes": 155282,
-      "sha256": "170a84ab5c9f8257c8b036bed706d4a28a67212bd5cc40478610f011c7e20c3b"
+      "bytes": 160288,
+      "sha256": "8bfd4ec84b54ce3690e5c08b7e8e3ac8eb1497981c54d7cae4cbcbdd429a9801"
     },
     "sw.js": {
       "bytes": 1703,
-      "sha256": "333cbf0ed343bcb94742992e0e1b9ca00bebae7961c177bbef27f53d984bdb09"
+      "sha256": "44880e668cf91df92fa49773b064f8ea517121f9c6f71bb4708dbda4e1c87974"
     },
     "manifest.webmanifest": {
       "bytes": 410,
@@ -35,8 +35,8 @@
       "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
     },
     "README.md": {
-      "bytes": 17842,
-      "sha256": "4476adb81d7a41880f675076af101d86ef61ef47e073a41e8acc66e0bbcd587b"
+      "bytes": 18705,
+      "sha256": "bff76e594ecd92bf46107477ab3f2f3a82a4b3e7e8d5ce39a914c7d829e298d7"
     }
   }
 }
