@@ -1,5 +1,5 @@
 {
-  "build": "TT-2026.10.18-r24",
+  "build": "TT-2026.10.18-r25",
   "release": "Game/Train dropdown and event-based previous results",
   "files": {
     "index.html": {

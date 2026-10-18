@@ -239,3 +239,10 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Result entry uses the selected saved team's player roster, a starting-lineup/substitutions selector, Player of the Match, event buttons without match-clock timestamps, Unknown scorer, linked assist events and penalty shootout kick outcomes.
 - Recorded goal and opposition-goal events update the result score; the saved result is included in match history and player statistics.
 - Build marker and service-worker cache bumped to TT-2026.10.18-r24 / touchline-tracker-20261018-r24. Diagnostics compare the fetched deployed files to the current release marker.
+
+
+## Release r25 — Result event recording fix
+- Fixed the Starting lineup / subs control so the summary appears below the button without overlapping it on narrow mobile screens.
+- Reworked Result event handling so event buttons, player selection, unknown scorer, additional events, and penalty shootout kicks respond reliably.
+- Result events use FT / Shootout labels and do not record live match-clock times.
+- Validation: JavaScript syntax and ZIP integrity checks; not yet end-to-end tested in Android Chrome.
