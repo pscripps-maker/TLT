@@ -1,14 +1,14 @@
 {
-  "build": "TT-2026.10.19-r24",
-  "cache": "touchline-tracker-20261019-r24",
+  "build": "TT-2026.10.24-r25",
+  "cache": "touchline-tracker-20261024-r25",
   "files": {
     "README.md": {
-      "sha256": "0623f5df0c4dc5bbc3a2696a4359e52a69ea362c613343fed702907801a3f3c0",
-      "bytes": 17376
+      "sha256": "b9e71c43e3943d824c0bfdeb8d63c42dc9244a37193e39bd78513dfc6c227129",
+      "bytes": 17912
     },
     "app.js": {
-      "sha256": "b99f29275ce1df59d26c0bf1abfe447d731edd8b7226f86a1091e5869bb20e6d",
-      "bytes": 150672
+      "sha256": "5e5a1837197d190dff10c30938456b576f6efe72fca477d932582499a5576117",
+      "bytes": 157455
     },
     "icon-192.png": {
       "sha256": "86a9eff85fcc6eff79466845e8fe32aee758dd701eeddb7fc01e7aa898c4ea5b",
@@ -23,19 +23,19 @@
       "bytes": 476
     },
     "index.html": {
-      "sha256": "93f108fcb49f296e099e2a8f92eb14ffab3c1311f8fdd162c1482b6f3d2b6077",
-      "bytes": 181970
+      "sha256": "d6e81c9656c49b7d6f6732ed3338740eb1621518b32ecbe0b8da9d884b609757",
+      "bytes": 188752
     },
     "inline-check.js": {
-      "sha256": "b99f29275ce1df59d26c0bf1abfe447d731edd8b7226f86a1091e5869bb20e6d",
-      "bytes": 150672
+      "sha256": "5e5a1837197d190dff10c30938456b576f6efe72fca477d932582499a5576117",
+      "bytes": 157455
     },
     "manifest.webmanifest": {
       "sha256": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a",
       "bytes": 410
     },
     "sw.js": {
-      "sha256": "48ebacd000f1742c4fd5448871c4963582d4227fbff51f362943394f0449f708",
+      "sha256": "63b0bfc52e59386db25bbfa49326c45f372f7339a21fd359f75de129aaed7700",
       "bytes": 1703
     }
   }

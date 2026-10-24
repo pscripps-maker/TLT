@@ -227,3 +227,11 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Switching to Team, History / stats, or Settings resets the selector to “＋ Game/Train”.
 - Choosing Live match or Training explicitly opens that page. Selecting the placeholder does not hide the current page.
 - Navigation-only change based on r22; other workflows and saved data structures are unchanged.
+
+
+## r25 timeline, totals and full backup update (24 October 2026)
+- Add events to the match timeline after full time, with player, assist, period and match-time fields.
+- Timeline displays events in chronological match-time order.
+- Match event totals show goal and assist totals per player plus other recorded event counts.
+- Starting a new period automatically inserts a missing end-of-previous-period marker before the new start marker.
+- Settings includes a complete app backup export and full replacement import for all app data.
