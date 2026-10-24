@@ -229,7 +229,7 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Navigation-only change based on r22; other workflows and saved data structures are unchanged.
 
 
-## r29 timeline, totals and full backup update (24 October 2026)
+## r30 timeline, totals and full backup update (24 October 2026)
 - Add events to the match timeline after full time, with player, assist, period and match-time fields.
 - Timeline displays events in chronological match-time order.
 - Match event totals show goal and assist totals per player plus other recorded event counts.
@@ -237,8 +237,14 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Settings includes a complete app backup export and full replacement import for all app data.
 
 
-## r29 timeline events, time-played editing and totals (24 October 2026)
+## r30 timeline events, time-played editing and totals (24 October 2026)
 - Add timeline events for start/end of a quarter or half and substitutions, in addition to goals and other events.
 - Match event totals use a defensive renderer and include goalscorers and assists.
 - Time played can be manually edited or reset to the calculated value from the match page.
 - Complete app backup controls moved to the bottom of Settings, immediately above Factory reset.
+
+
+## r30 changes
+- Match reports now include Match Event Totals, including goals, opposition goals, assists, goalscorers/assists, and other recorded event totals.
+- History & Stats match report popup includes a Share report action (native share where supported, clipboard fallback otherwise).
+- Loading a saved match closes the confirmation/report popups before saving and switches to the Live Match page with the selected match loaded.
