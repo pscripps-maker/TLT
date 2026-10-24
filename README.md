@@ -252,3 +252,8 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 
 ## r32 fix
 The saved-match load confirmation is now an in-app modal (not the browser's native confirm dialog, so it does not display the site-origin heading). Confirming closes the modal, loads the saved match, explicitly switches the top-level tab to Live and selects Live Match in the dropdown. The embedded script and reference scripts are synchronized.
+
+
+## Saved-match navigation fix (r33)
+- Replaced the load-match post-confirmation flow with an explicit Live Match page activation that sets the dropdown, unhides the Live Match view, refreshes it, blurs the confirmation button, and resets scrolling after rendering.
+- Build: TT-2026.10.25-r33.

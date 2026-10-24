@@ -1,42 +1,42 @@
 {
-  "build": "TT-2026.10.24-r32",
+  "build": "TT-2026.10.25-r33",
   "cache": "touchline-tracker-20261024-r32",
   "files": {
     "README.md": {
-      "sha256": "23939967d52fe02c4f890fd5dce8dc203cef607495edbc8c3fd4ea1aa9e46676",
-      "bytes": 19169
+      "size": 19464,
+      "sha256": "6b5a836832f0219ffe120fea3cfdc030402195386ce87eae7bce75c01b963d61"
     },
     "app.js": {
-      "sha256": "55fc90616da88eba1b37dfaf5c6e548c1977e51c7f6460e9d1e6785da7977623",
-      "bytes": 166797
+      "size": 167484,
+      "sha256": "912b4b3aa131586b4a3470848e9c2534909b09b2a9c693553851de5469bd10e5"
     },
     "icon-192.png": {
-      "sha256": "86a9eff85fcc6eff79466845e8fe32aee758dd701eeddb7fc01e7aa898c4ea5b",
-      "bytes": 1553
+      "size": 1553,
+      "sha256": "86a9eff85fcc6eff79466845e8fe32aee758dd701eeddb7fc01e7aa898c4ea5b"
     },
     "icon-512.png": {
-      "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba",
-      "bytes": 4296
+      "size": 4296,
+      "sha256": "af15853d526c4d78431a5ed2feab286e46a26cfd97c74e04883d4a44563b62ba"
     },
     "icon.svg": {
-      "sha256": "5aff0b15c14f84aacfef8af7640febb4b5138fb4bda5d7e41e0ebb4381c34ee5",
-      "bytes": 476
+      "size": 476,
+      "sha256": "5aff0b15c14f84aacfef8af7640febb4b5138fb4bda5d7e41e0ebb4381c34ee5"
     },
     "index.html": {
-      "sha256": "03ca1cb2694168c17d623838c094335693049e84176e1e382db3b8b204348cb2",
-      "bytes": 199016
+      "size": 199703,
+      "sha256": "2fdc86e2843c99da47720f46bcbf472aa681fe009e7873c3e21ecaca8b0d43b6"
     },
     "inline-check.js": {
-      "sha256": "55fc90616da88eba1b37dfaf5c6e548c1977e51c7f6460e9d1e6785da7977623",
-      "bytes": 166797
+      "size": 167484,
+      "sha256": "912b4b3aa131586b4a3470848e9c2534909b09b2a9c693553851de5469bd10e5"
     },
     "manifest.webmanifest": {
-      "sha256": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a",
-      "bytes": 410
+      "size": 410,
+      "sha256": "bf6bc94f36b00d222c9c715d02dfa53945fd351959b8260c81c054d0ae42f76a"
     },
     "sw.js": {
-      "sha256": "c38bc8a8161d36945211ef41232196fc12721c9072ffc42708a78819098fe59b",
-      "bytes": 1703
+      "size": 1703,
+      "sha256": "164764aeb2808029f68ff469c76eb231126221b22310baa7df7fa535309f5baa"
     }
   }
 }
