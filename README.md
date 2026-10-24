@@ -248,3 +248,7 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Match reports now include Match Event Totals, including goals, opposition goals, assists, goalscorers/assists, and other recorded event totals.
 - History & Stats match report popup includes a Share report action (native share where supported, clipboard fallback otherwise).
 - Loading a saved match closes the confirmation/report popups before saving and switches to the Live Match page with the selected match loaded.
+
+
+## r32 fix
+The saved-match load confirmation is now an in-app modal (not the browser's native confirm dialog, so it does not display the site-origin heading). Confirming closes the modal, loads the saved match, explicitly switches the top-level tab to Live and selects Live Match in the dropdown. The embedded script and reference scripts are synchronized.
