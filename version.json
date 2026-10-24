@@ -1,9 +1,9 @@
 {
-  "build": "TT-2026.10.24-r25",
-  "cache": "touchline-tracker-20261024-r25",
+  "build": "TT-2026.10.24-r26",
+  "cache": "touchline-tracker-20261024-r26",
   "files": {
     "README.md": {
-      "sha256": "b9e71c43e3943d824c0bfdeb8d63c42dc9244a37193e39bd78513dfc6c227129",
+      "sha256": "6cb78506a5017877d59f5df29bdef3a8a923c562c11e39bbbe2625879fd40650",
       "bytes": 17912
     },
     "app.js": {
@@ -23,8 +23,8 @@
       "bytes": 476
     },
     "index.html": {
-      "sha256": "d6e81c9656c49b7d6f6732ed3338740eb1621518b32ecbe0b8da9d884b609757",
-      "bytes": 188752
+      "sha256": "667d8b7397003a2f892c920d7579f1f7de06ab0475265a99627d3687796ca54d",
+      "bytes": 189676
     },
     "inline-check.js": {
       "sha256": "5e5a1837197d190dff10c30938456b576f6efe72fca477d932582499a5576117",
@@ -35,7 +35,7 @@
       "bytes": 410
     },
     "sw.js": {
-      "sha256": "63b0bfc52e59386db25bbfa49326c45f372f7339a21fd359f75de129aaed7700",
+      "sha256": "aff70dfa1e115c37bb9caf126ed4755d4526d12125d6234bd749adb68c3e3360",
       "bytes": 1703
     }
   }

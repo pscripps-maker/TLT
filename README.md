@@ -229,7 +229,7 @@ Fixed the Live match / Training dropdown handler. The dropdown is no longer boun
 - Navigation-only change based on r22; other workflows and saved data structures are unchanged.
 
 
-## r25 timeline, totals and full backup update (24 October 2026)
+## r26 timeline, totals and full backup update (24 October 2026)
 - Add events to the match timeline after full time, with player, assist, period and match-time fields.
 - Timeline displays events in chronological match-time order.
 - Match event totals show goal and assist totals per player plus other recorded event counts.
